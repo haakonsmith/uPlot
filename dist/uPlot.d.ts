@@ -71,7 +71,7 @@ declare class uPlot {
 	destroy(): void;
 
 	/** sets the chart data & redraws. (default resetScales = true) */
-	setData(data: uPlot.AlignedData, resetScales?: boolean): void;
+	setData(data: uPlot.AlignedData, resetScales?: boolean, doCopy?: boolean): void;
 
 	/** sets the limits of a scale & redraws (used for zooming) */
 	setScale(scaleKey: string, limits: { min: number; max: number }): void;

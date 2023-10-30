@@ -1,0 +1,12 @@
+{
+	"endOfLine": "auto",
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "all",
+	"printWidth": 80,
+	"plugins": [],
+	"pluginSearchDirs": ["."],
+	"overrides": [],
+	"arrowParens": "avoid",
+	"bracketSameLine": true
+}
